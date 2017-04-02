@@ -43,11 +43,9 @@ void BinarySearchTree::insertImpl(Node*& root, int data)
   {
     if(data < root->data_)
       insertImpl(root->ptrToLeft_, data);
-
-    if(data > root->data_)
+    else if(data > root->data_)
       insertImpl(root->ptrToRight_, data);
-
-    //=: data exist, do nothing
+    //else data exist, do nothing
   }
   else
     root = new Node(data);
