@@ -1,0 +1,35 @@
+* PTA Solution
+| Title                                    | language | Solution                                                     |
+|------------------------------------------+----------+--------------------------------------------------------------|
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/58271][01-复杂度 1 最大子列和问题]]               | C++      | [[file:01-MaxSequenceSum1/test.cpp]]                             |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/58272][01-复杂度 2 Maximum Subsequence Sum]]      | C++      | [[file:01-MaxSequenceSum2/test.cpp]]                             |
+| [[https://pta.patest.cn/pta/test/3512/exam/3/question/62612][02-线性结构 1 两个有序链表序列的合并]]     | C        | [[file:02-MergeOrderedList/test.c]]                              |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/62613][02-线性结构 2 一元多项式的乘法与加法运算]] | C++      | [[file:02-MonadicPolynominalAdditionAndMultiplication/test.cpp]] |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/62614][02-线性结构 3 Reversing Linked List]]      | C++      | [[file:02-ReversingLinkedList/test.cpp]]                         |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/62615][02-线性结构 4 Pop Sequence]]               | C++      | [[file:02-PopSequence/test.cpp]]                                 |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/69050][03-树 1 树的同构]]                         | C++      | [[file:03-IsomorphismOfTrees/test.cpp]]                          |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/69051][03-树 2 List Leaves]]                      | C++      | [[file:03-ListLeaves/test.cpp]]                                  |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/69052][03-树 3 Tree Traversals Again]]            | C++      | [[file:03-TreeTraversalAgain/test.cpp]]                          |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/73453][04-树 4 是否同一棵二叉搜索树]]             | C++      | [[file:04-SameBinarySearchTreeJudgement/test.cpp]]               |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/73454][04-树 5 Root of AVL Tree]]                 | C++      | [[file:04-RootOfAVLTree/test.cpp]]                               |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/73455][04-树 6 Complete Binary Search Tree]]      | C++      | [[file:04-CompleteBinarySearchTree/test.cpp]]                    |
+| [[https://pta.patest.cn/pta/test/3512/exam/3/question/73456][04-树 7 二叉搜索树的操作集]]               | C        | [[file:04-BinTreeOperation/test.c]]                              |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/77412][05-树 7 堆中的路径]]                       | C++      | [[file:05-PathOfHeap/test.cpp]]                                  |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/77413][05-树 8 File Transfer]]                    | C++      | [[file:05-FileTransfer/test.cpp]]                                |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/77414][05-树 9 Huffman Codes]]                    | C++      | [[file:05-HuffmanCode/test.cpp]]                                 |
+| [[https://pta.patest.cn/pta/test/3512/exam/4/question/80568][06-图 1 列出连通集]]                       | C++      | [[file:06-ListComponents/test.cpp]]                              |
+
+
+* Test:
+#+BEGIN_SRC shell :results output
+./test.sh 05-HuffmanCode
+#+END_SRC 
+
+#+RESULTS:
+: test: /home/felix/mysrc/zju-ds-pta/05-HuffmanCode
+: g++ -g -Wall -static-liblsan -fsanitize=leak -fno-omit-frame-pointer    test.cpp   -o test
+: Success on: 01.in
+: Success on: 11.in
+: succ: 2, fail: 0
+: All test done successfully!
+
